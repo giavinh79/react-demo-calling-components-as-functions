@@ -1,4 +1,4 @@
-# React Demo Call Components as Functions
+# React Demo - Calling Components as Functions
 
 Small demo on why you should not call React components as functions.
 - They get treated as hooks (see React Dev Tools)
