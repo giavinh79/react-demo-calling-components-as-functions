@@ -3,6 +3,7 @@ import { createRoot } from 'react-dom/client';
 import App from './App.tsx';
 import type { ErrorPayload } from 'vite/types/hmrPayload.js';
 
+// https://github.com/vitejs/vite/issues/2076
 const showErrorOverlay = (err: Partial<ErrorPayload['err']>) => {
   const ErrorOverlay = customElements.get('vite-error-overlay');
   if (ErrorOverlay) {
