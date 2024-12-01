@@ -4,5 +4,6 @@ main {
 }
 
 button {
-  margin-bottom: 1rem;
+  padding: 0.5rem;
+  margin-right: 1rem;
 }
